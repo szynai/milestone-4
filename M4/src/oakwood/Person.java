@@ -1,13 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package oakwood;
 
-/**
- *
- * @author redelyn
- */
 public class Person {
-    
+protected String name;
+protected String contact;
+
+public Person(String name, String contact) {
+this.name = name;
+this.contact = contact;
 }
+
+public String getName() {
+return name;
+}
+
+public String getContact() {
+return contact;
+}
+} 
+
